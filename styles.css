@@ -1,0 +1,164 @@
+@font-face {
+    font-family: my-cool-font;
+    src: url(Norse-Bold.otf);
+}
+span {
+    font-style: italic;
+}
+:root {
+    --background-color: rgb(249, 245, 245);
+}
+
+
+
+
+
+body {
+    background-image: url('halie-west-25xggax4bSA-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: 37% 100%;
+    background-attachment: fixed;
+    background-color: var(--background-color);
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerP {
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   
+    gap: 20px;
+    position: absolute;
+    left: 37%;
+    background-color: var(--background-color);
+    
+}    
+.p {
+    margin-top: 160px;
+}
+
+.p , .p1 {
+    flex-wrap: wrap;
+    max-width: 540px;
+    font-size: 1.001rem;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    margin-left: 7vw;
+}
+
+.containerLogo {
+    background-color: black;
+    height: 15vh;
+    width: 37vw;
+    margin-left: -8px;
+    position: relative;
+    top: 170px;
+    opacity: 0.6;
+}
+.logo {
+    background-image: url('odin-lined.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100px;
+    width: 100px;
+    left: 120px;
+    top: 15px;
+    
+       
+   
+}
+.textLogo {
+    font-family: my-cool-font;
+    font-size: 6.3rem;
+    font-weight: bold;
+    position: relative;
+    left: 215px;
+    top: 25px;
+    color: white;
+}
+
+.whitebg {
+    height: 40vh;
+    width: 63%;
+    background-color: white;
+    position: absolute;
+    top: 340px;
+    left: 37vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.formContainer {
+    position: relative;
+    left: 5vw;
+    display: flex;
+    gap: 75px;
+    }
+.firstCol , .secondCol {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+
+
+ .create {
+    position: absolute;
+    bottom: 60px;
+    left: 42vw;
+    padding: 15px 65px;
+    background-color: #596D48;
+    color: white;
+    border-radius: 13px;
+    font-weight: bold;
+ }   
+ .letdothis {
+  position: relative;
+  top: 340px;
+  left: 38vw;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ input {
+    margin-bottom: 20px; 
+    padding-right: 95px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 3px solid #E5E7EB;
+    border-radius: 8px;
+    
+ }
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: gray;
+
+}
+
+
+ .logIn {
+    position: absolute;
+    bottom: 20px;
+    left: 43vw;
+ }
+.autor {
+    position: absolute;
+    bottom: 7px;
+    left: 9vw;
+    font-size: 14px;
+    color: white;
+    opacity: 0.5;
+}
+
+a {
+  text-decoration: none;
+  color: #596D48;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
