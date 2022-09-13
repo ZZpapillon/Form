@@ -110,7 +110,7 @@ body {
  .create {
     position: absolute;
     top: 320px;
-    left: 10vw;
+    left: 0vw;
     padding: 15px 65px; 
     background-color: #596D48;
     color: white;
@@ -181,8 +181,11 @@ a {
 
 .error-wrapper {
     position: absolute;
-    top: 71vh;
-    left: 64vw;
+    top: 75vh;
+    left: 59vw;
+    width: 400px;
+    height: 100px;
+    display: inline;
 }
 .pass-error-msg {
     position: absolute;
