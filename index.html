@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <div class="containerP">
@@ -15,46 +16,43 @@
 
     
 
-    
+<form action="#" method="get">
    <div class="whitebg"> 
     <div class="formContainer">
-
         <div class="firstCol">
         
-        <form action="#" method="post"></form>
-        
             <label for="first_name">FIRST NAME</label>
-            <input type="text" id="first_name" name="first_name">
+            <input type="text" id="first_name" name="first_name" minlength="2" maxlength="20" placeholder=' ' required>
         
             <label for="phone_number">PHONE NUMBER</label>
-            <input type="tel" id="phone_number" name="phone_number">
+            <input type="tel" id="phone_number" name="phone_number" minlength="9" maxlength="12" placeholder=' ' required>
         
             <label for="user_password">PASSWORD</label>
-            <input type="password" id="user_password" name="password">
+            <input type="password" id="user_password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder=' ' required>
 
-        </form>
+        
         </div>
         <div class="secondCol">
-        <form action="#" method="post"></form>
             <label for="last_name">LAST NAME</label>
-            <input type="text" id="last_name" name="last_name">
+            <input type="text" id="last_name" name="last_name" minlength="2" maxlength="20" placeholder=' ' required>
             
             <label for="email">EMAIL</label>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email" placeholder=' ' required>
             
             <label for="user_password">CONFIRM PASSWORD</label>
-            <input type="password" id="user_password2" name="password">
-        
-    </form>
-    </div>
-    </div>
+            <input type="password" id="user_password2" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder=' ' required>
+       </div>
+    <button class="create" type="submit">Create Account</button>
+    <div class="match"></div>
 </div>
-<button class="create" type="submit">Create Account</button>
+</div>
+</form>
 <div class="letdothis">Let's do this!</div>
 <div class="logIn">Already have an account? <a href="url">Log in</a></div>
-<div class="autor">Photo by Halie West on Unsplash </div>
-    
-    
+<div class="autor">Photo by Halie West on Unsplash</div>
+<div class='error-wrapper'>
+    <div class='pass-error-msg'></div>
+</div>
     
     
     
